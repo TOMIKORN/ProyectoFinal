@@ -80,12 +80,12 @@
             
               <!-- Email input -->
               <div class="form-outline mb-4">
-                <input type="email" 
+                <input type="user" 
                 id="nombreUsuario" 
                 name="nombreUsuario" 
-                class="form-control" [(ngModel)]="nombreUsuario" required/>
-                <label class="form-label" for="nombreUsuario">Correo Electronico</label
-                >
+                class="form-control" [(ngModel)]="nombreUsuario" 
+                name="nombreUsuario" required/>
+                <label class="form-label" for="nombreUsuario">Usuario</label>
               </div>
 
               <!-- Password input -->
@@ -94,8 +94,8 @@
                   type="password"
                   id="password"
                   class="form-control"
-                  [(ngModel)]="password" required
-                />
+                  [(ngModel)]="password" 
+                  name="password" required/>
                 <label class="form-label" for="password">Contraseña</label>
               </div>
 
