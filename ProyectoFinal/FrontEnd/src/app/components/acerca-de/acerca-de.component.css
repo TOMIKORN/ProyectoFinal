@@ -2,9 +2,15 @@
     padding: 20px;
 }
 
+
 div{
-    background-color: #808080;
+    background-color: #0c0d0e;
+    color: whitesmoke;
     text-align: center;
+}
+
+p{
+    line-height: 2px;
 }
 
 /*Estilo de la foto de perfil*/
@@ -14,7 +20,7 @@ div{
         position: absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 3px 3px 3px rgb(172, 172, 177);
         left: 3%;
         top: 600px;
     }
