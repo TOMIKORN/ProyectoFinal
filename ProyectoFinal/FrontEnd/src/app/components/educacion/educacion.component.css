@@ -4,9 +4,16 @@
     }
     
     div{
-        background: #517aeb;
+        background: #00123c;
     }
     
     h1, h3{
         display: inline;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    p{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }

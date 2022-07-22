@@ -19,7 +19,7 @@ p{
     #fotodeperfil{
         position: absolute;
         width: 15%;
-        border-radius: 100%;
+        border-radius: 20%;
         box-shadow: 3px 3px 3px rgb(172, 172, 177);
         left: 3%;
         top: 600px;
@@ -30,10 +30,10 @@ p{
     #fotodeperfil{
         position: absolute;
         width: 30%;
-        border-radius: 100%;
+        border-radius: 20%;
         box-shadow: 3px 3px 3px grey;
         left: 33%;
-        top: 950px;
+        top: 670px;
     }
 }
 
