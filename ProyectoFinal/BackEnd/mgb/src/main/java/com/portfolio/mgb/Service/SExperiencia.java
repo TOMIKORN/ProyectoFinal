@@ -5,7 +5,7 @@
 package com.portfolio.mgb.Service;
 
 import com.portfolio.mgb.Entity.Experiencia;
-import com.portfolio.mgb.Security.Repository.RExperiencia;
+import com.portfolio.mgb.Repository.RExperiencia;
 import java.util.List;
 import java.util.Optional;
 import javax.transaction.Transactional;
