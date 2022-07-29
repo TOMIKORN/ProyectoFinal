@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'nuevaexp', component: NewExperienciaComponent},
   { path: 'editexp/:id', component: EditExperienciaComponent},
   { path: 'nuevaed', component: NewEducacionComponent},
-  { path: 'edited/:id', component: EditEducacionComponent}
+  { path: 'edited/:id', component: EditEducacionComponent},
 
 ];
 

@@ -2,3 +2,13 @@ img{
     width: 100%;
     height: 600px;
 }
+
+img, .background{
+    width: 100%;
+    height: 600px;
+    background-image: url("../../../assets/fondo2.png");
+    filter: url("#turbulence");
+}
+
+
+
