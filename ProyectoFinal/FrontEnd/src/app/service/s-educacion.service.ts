@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class SEducacionService {
-  edURL = 'http://localhost:8080/explab/'
+  edURL = 'http://localhost:8080/educa/'
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Educacion[]>{
